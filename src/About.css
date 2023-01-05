@@ -1,0 +1,61 @@
+
+
+label {
+  display: block;
+  margin: 10px 0;
+  text-align-last: left;
+}
+
+label input {
+  display: block;
+}
+
+ h1{
+height:-80;
+border: 2px solid  white;
+margin-top: -85%;
+background-color: rgb(191, 66, 191);
+border-radius: 5px;
+margin-left: 0.2%;
+} 
+.MainDiv{
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left:40%;
+   height: 500px;
+  width: 300px; 
+ 
+margin-top: 5%;
+background-color: rgb(228, 179, 228);
+
+}  
+
+.App {
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  text-align-last: left;
+}
+
+label input {
+  display: block;
+}
+
+.errors {
+  background: red;
+  color: #fff;
+  margin: 10px;
+} 
+.logins{
+  margin-top: 2px;
+  margin-left: -20%;
+
+  position: fixed;
+  padding: 70px;
+
+}

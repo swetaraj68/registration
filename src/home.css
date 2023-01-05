@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.image{
+    /* border: 2px solid black; */
+    height: 100vh;
+position: absolute;
+    }
+    .img{
+        height: 30%;
+        width: 12%;
+        /* margin: 150px; */
+        margin: 15%;
+        border-radius: 5vh; 
+        position: relative;
+    }
+    
+    .about{
+        margin-left: 15%;
+        margin-top: 10%;
+        position: absolute;
+        border-radius: 5px;
+       
+    }
+    .name{
+        text-shadow: 2px 2px 5px rgb(0, 153, 255);
+        font-size: 5vh;
+        margin-left: 40vh;
+      display: flex;
+     /* position: relative; */
+     margin-left: 50%;
+     /* margin-top:20%; */
+    }
+   .div1{
+    border: 1px solid black;
+  
+    width: 30%;
+   
+    margin-left: 30vh;
+    background-color:rgb(120, 219, 225);
+    border-radius: 8px;
+    text-align: center;
+   margin-right: 3%;
+   /* padding-top: 10px; */
+  
+   }
+   .div2{
+    border: 1px solid black;
+    width:30%;
+   
+    background-color: rgb(120, 219, 225);
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 20px;
+    /* padding-top: 10px; */
+   }
+   .div3{
+    border: 1px solid black;
+    width:30% ;
+    /* height:25%;  */
+  background-color:rgb(120, 219, 225);
+  border-radius: 8px;
+  text-align: center;
+  /* padding-top: 10px; */
+   }
+    .mainDiv{
+    display: flex;
+     position: relative;
+     border-radius: 8px;
+     margin-left: 50vh;
+border-radius:5px ;
+  margin-top: -5%;
+   } 
+h6{
+    margin-left: 20vh;
+    margin-top: -20vh;
+}

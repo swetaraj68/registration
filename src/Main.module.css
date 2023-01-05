@@ -1,0 +1,58 @@
+.nav{
+    background-color:rgb(124, 213, 213);
+    border: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+    color: aliceblue;
+    height: 8vh;
+   
+  
+}
+
+
+ .links{
+    display: flex;
+    width: 60%;
+   
+    color:black;
+    justify-content: space-between;
+     margin-left: 35vh;
+   /* background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Fhow-to-add-a-background-image-to-the-top-section-of-your-webpage-with-html&psig=AOvVaw0s84D2bin2T72idROGQ_dw&ust=1673019189929000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNjhj6bgsPwCFQAAAAAdAAAAABAI); */
+} 
+ 
+.mobile{
+display: none;
+
+}
+@media screen and (max-width:700px) {
+    .mobile{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .equal{
+        font-size: xx-large;
+        color: black;
+    }
+    #Menu{
+ display: block;
+ position: fixed;
+
+ height: 100vh;
+ width: 50vh;
+ display: flex;
+flex-direction: column;
+ align-items: center;
+ justify-content:center;
+ gap: 1.5rem;
+  margin-left: 18vh;
+  margin-top: 8vh;
+ background-color:rgb(201, 124, 213)
+    }
+    
+} 
+.cross{
+    color: #000;
+    font-size: xx-large;
+}
